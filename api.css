@@ -29,13 +29,14 @@ img {
 }
 
 .article,
-.sourse {
-  background: rgb(231, 216, 226);
+.main-sourse {
+  background: rgb(255, 247, 252);
   border: 5px solid rgb(218, 206, 216);
   color: rgb(83, 82, 82);
   flex: 1;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 10px;
+  place-self: center;
 }
 
 #urlToImage {
@@ -50,8 +51,8 @@ img {
 .main-title {
   font-weight: 900;
   font-style: italic;
-  margin-bottom: 2%;
-  width: 80%;
+  text-indent: 8%;
+  width: 100%;
 }
 .main-sourse {
   font-weight: 800;
@@ -64,5 +65,5 @@ img {
 }
 .main-content {
   font-weight: 500;
-  width: 60%;
+  width: 100%;
 }
