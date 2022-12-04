@@ -48,9 +48,10 @@ img {
   border-top-right-radius: 12px;
 }
 .main-title {
-  font-weight: 600;
+  font-weight: 900;
   font-style: italic;
   margin-bottom: 2%;
+  width: 80%;
 }
 .main-sourse {
   font-weight: 800;
