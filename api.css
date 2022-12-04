@@ -1,0 +1,67 @@
+html {
+  font-family: "Crimson Pro", serif;
+}
+img {
+  width: 70%;
+  height: 60%;
+  object-fit: cover;
+}
+.columns {
+  display: flex;
+  width: 90%;
+}
+
+.column {
+  background: #eee;
+  border: 5px solid #ccc;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 10px;
+  display: flex;
+
+  width: 50%;
+  position: relative;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.article,
+.sourse {
+  background: rgb(231, 216, 226);
+  border: 5px solid rgb(218, 206, 216);
+  color: rgb(83, 82, 82);
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+
+#urlToImage {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.main-title {
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 2%;
+}
+.main-sourse {
+  font-weight: 800;
+  margin: 2%;
+}
+
+.publishedAt {
+  margin: 2%;
+  font-weight: bold;
+}
+.main-content {
+  font-weight: 500;
+  width: 60%;
+}
